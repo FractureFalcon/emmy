@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <script src="logic.js"></script>
+    <script src="emmy.js"></script>
+    <script src="footer.js"></script>
+</head>
+    
+<body onresize="setScroll()">
+    <div class="main-content-lane">
+        <div id="emmyWrapper">
+            <div id="emmy" class="digital-chat">
+            </div>
+
+            <div id="input-container">
+                <input id="text-input" class="digital-chat" type="text" onkeydown="submitText(event)" />
+                <button id="text-submit" type="button" onclick="submitText(null)">Submit</button>
+            </div>
+        </div>
+        
+        <my-footer></my-footer>
+    </div>
+</body>    
+</html>

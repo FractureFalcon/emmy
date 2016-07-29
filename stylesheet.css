@@ -1,0 +1,107 @@
+html {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+
+    background: #EEEEFF;
+}
+
+body {
+    background-size: cover;
+
+    margin: 0 0 175px;
+    padding: 0;
+
+    width: 75%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 16px;
+}
+
+.main-content-lane {
+    padding-top: 50px;
+
+    height: 90%;
+
+    text-align: center;
+
+    font-size: 1.25em;
+    font-family: sans-serif;
+    line-height: 1.75em;
+}
+
+button {
+    font-size: 1em;
+}
+
+.digital-chat {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: courier;
+    text-align: left;
+}
+
+#emmyWrapper {
+    position: fixed;
+    width: 75%;
+    height: 50%;
+}
+
+#emmy {
+    display: block;
+
+    background-color: white;
+    border: 1px solid #A9A9A9;
+
+    width: 100%;
+    height: 100%;
+    resize: vertical;
+    overflow: auto;
+
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#input-container {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+}
+
+#text-input {
+    padding: 10px;
+}
+
+#text-submit {
+
+}
+
+.emmy-talk {
+    font-weight: bold;
+    color: blue;
+}
+
+.user-talk {
+    font-weight: bold;
+    color: green;
+}
+
+#text-input {
+    width: 100%;
+}
+
+my-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    padding: 0 12%;
+
+    width: 75%;
+    height: 150px;
+
+    background-color: #EEEEFF;
+}
