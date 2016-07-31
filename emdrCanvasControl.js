@@ -35,6 +35,9 @@ dir *= Math.random() * 4 + 1;
 var circleSpeed = 750;
 var circleRadius = 35;
 var circleBorderWidth = 10;
+var circleInnerColor = "#D4771C";
+var circleOuterColor = "#FFD0A1";
+
 
 var collided = false;
 var collisionTime = 0.2;
@@ -149,9 +152,9 @@ function drawCircle(x, y) {
 
   context.beginPath();
   context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
-  context.fillStyle = 'green';
+  context.fillStyle = circleInnerColor;
   context.fill();
   context.lineWidth = circleBorderWidth;
-  context.strokeStyle = '#66ff66'
+  context.strokeStyle = circleOuterColor;
   context.stroke();
 }
