@@ -1,13 +1,21 @@
-function beginTreatment() {
-    window.location.href = "./app_part_one.html";
-}
-
-function loadPartTwo() {
-    window.location.href = "./app_part_two.html";
+function loadPreEMDRTreatment() {
+    window.location.href = "./emmy_intro.html";
 }
 
 function loadEMDRTreatment() {
     window.location.href = "./emdr.html";
+}
+
+function loadPostEMDRTreatment() {
+    window.location.href = "./emmy_outro.html";
+}
+
+function loadFinal() {
+    window.location.href = "./app_final_screen.html";
+}
+
+function loadDisclaimer() {
+    window.location.href = "./disclaimer.html";
 }
 
 function clearLocalData() {

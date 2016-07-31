@@ -48,7 +48,7 @@ function update() {
     
     window.clearInterval(intervalID);
     // load the next window
-    window.location.assign("app_final_screen.html");
+    loadPostEMDRTreatment();
   }
   
   // update loop
