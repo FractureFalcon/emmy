@@ -19,7 +19,7 @@ function loadDisclaimer() {
 }
 
 function clearLocalData() {
-    // stub
+    document.cookie = "";
 }
 
 function restartApp() {
