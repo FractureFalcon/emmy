@@ -5,7 +5,7 @@ myFooterPrototype.createdCallback = function() {
     
     t.innerHTML = `
         <hr>
-        Thank you for using the EMDR Treatment app. Please remember this app is not a replacement for actual medical treatment - if you think you would benefit from further treatment, please pursue it. <br>
+        Thank you for using the EMDR Treatment app. Please remember this app is not a replacement for actual medical treatment.<br>
     `;
 };
 

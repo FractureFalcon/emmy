@@ -57,6 +57,11 @@ function getUserName() {
     if(usernameIndex >= 0) {
         usernameIndex += cookieLabel.length;
         let usernameEnd = cookie.indexOf(';', usernameIndex);
+        if(usernameEnd === -1) 
+        {
+            usernameEnd = cookie.length;
+        }
+        
         username = cookie.substr(usernameIndex, usernameEnd - usernameIndex);
     }
 }
